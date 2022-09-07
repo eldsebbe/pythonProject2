@@ -1,13 +1,29 @@
 def print_hi(name):
     print(f'Hi, {name}')
+value_int= 10
+value_strin="Python"
+value_float= 12.43
 
 
-namn = input("Vad heter du? ")
+print("Är nummeret negativt? Det ska vi tetsta")
+b=0
 
-print("Tjenare", namn)
-age = int(input("Hur gammal är du? "))
+while b==0:
+    print("Skriv ett nummer")
+    a=float(input())
 
-print("Så du är", age)
-age = age+5
+    if a>=0:
+        print("posetivt")
+    else:
+        print("Negativt")
 
-print("Då är du", age, "om 5 år")
+    print("Vill du testa ett nytt nummer? ja/nej")
+    skrivet_yes=input()
+
+    if skrivet_yes=="nej" or skrivet_yes=="Nej":
+        b=1
+    else:
+        b=0
+
+
+print("Jag är fri")
