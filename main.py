@@ -26,7 +26,3 @@ while b==0:
         b=0
 
 
-
-
-print("Jag är fri")
-
