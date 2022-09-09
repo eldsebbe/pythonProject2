@@ -8,7 +8,7 @@ kostnad=0
 tid=0
 
 
-val=int(input("Vad vill du köpa? skriv (1) om årskort, skriv (2) om enkelbiljet."))
+val=int(input("årskort=2310kr, biljett=85kr, Vad vill du köpa? skriv (1) om årskort, skriv (2) om enkelbiljet. "))
 
 if val==1:
     kostnad=2310
