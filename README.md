@@ -4,4 +4,4 @@
 
 Sebastian Schaub 
 
-uppgift 2-4
+uppgift 2-6
