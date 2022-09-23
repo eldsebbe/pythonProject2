@@ -6,7 +6,6 @@ temp_s=s.split()
 a=0
 nyny_s=[int(b) for b in temp_s]
 for a in nyny_s:
-
     if nyny_s.count(int(a))>=2:
         while nyny_s.count(int(a))>=2:
             nyny_s.reverse()
