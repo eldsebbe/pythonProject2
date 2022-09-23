@@ -27,7 +27,6 @@ if kostnad==2310:
         print("Du borde köpt enkelbiljeter istället. Du slösar pengar")
     else:
         print("Du har gjort ett ekonomist korrekt val")
-
 elif kostnad==85:
     if 2310 <= kostnad * tid:
         print("Du borde köpt årskort istället. Du slösar pengar")
