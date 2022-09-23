@@ -10,7 +10,7 @@ temp_s="test"
 
 for a in range(0,len(s),1):
 
-    if s[a]=="a" or s[a]=="e" or s[a]=="i" or s[a]=="o" or s[a]=="u":
+    if s[a]=="a" or s[a]=="e" or s[a]=="i" or s[a]=="o" or s[a]=="u" or s[a]=="y" or s[a]=="å" or s[a]=="ä" or s[a]=="ö":
         temp_s= "fi"+s[a+1:] + " " + s[:a+1]+"kon"
         break
 
