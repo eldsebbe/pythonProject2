@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+}
+
+#h1test {
+  color: White;
+  text-align: center;
+  background-color:black;
+}
+#h2test {
+  color: White;
+  text-align: center;
+  background-color:black;
+}
+
+#point0{
+  border: 5px outset black;
+  background-color:Black;
+}
+
+#point2{
+  color: White;
+  font-size: 20px;
+  text-align:center;
+  font-family:times new roman;
+}

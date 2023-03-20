@@ -1,4 +1,5 @@
 import random
+import numpy
 
 class kort:
     def __init__(self, färg, nummer):
