@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+{% block head %}
+<title>sida2</title>
+{% endblock %}
+
+
+{% block body %}
+ <div id="point0">
+  <h1 id="h1test">
+   Här kan du checka ut!
+  </h1>
+ </div>
+ <div>
+  {% for table in tables %}
+        <h2 id="h1test">{{titles[loop.index]}}</h2>
+        {{ table|safe }}
+        {% endfor %}
+ </div>
+ <p>
+  <a href="/clean-data" method="Get">Cheackout!</a>
+ </p>
+ <p>
+  <a href="Page4">Return to Menu</a>
+ </p>
+{% endblock %}

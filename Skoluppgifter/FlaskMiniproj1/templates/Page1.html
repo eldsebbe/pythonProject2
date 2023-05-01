@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+
+{% block head %}
+<title>Sida1</title>
+{% endblock %}
+
+
+{% block body %}
+    <div id="point0">
+        <h1 id="h1test">Välkomen till denna sida! Administratör!</h1>
+    </div>
+    <div id="point0">
+        <p id="point2">I denna sida kan du lägga till och ta bort pizzor! </p>
+    </div>
+    <div>
+        {% for table in tables %}
+        <h2 id="h1test">{{titles[loop.index]}}</h2>
+        {{ table|safe }}
+        {% endfor %}
+
+    </div>
+
+
+    <form action="/clean-choice" method="POST">
+        <input type="number" name="name" placeholder="choose to delete">
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <form action="/add-choice" method="POST">
+        <input type="text" id="pizza" name="pizza" placeholder="choose name for pizza">
+        <input type="number" id="numba" name="numba" placeholder="choose price for pizza">
+        <input type="text" id="size" name="size" placeholder="choose size for pizza">
+        <input type="text" id="topp" name="topp" placeholder="choose topping for pizza">
+        <button type="submit">Submit</button>
+    </form>
+    <p>
+    <a href="Page4">hello Customer</a>
+    </p>
+
+{% endblock %}

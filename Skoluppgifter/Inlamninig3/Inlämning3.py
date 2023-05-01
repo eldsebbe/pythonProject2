@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import Inlamninglib as ines
 
-df =pd.read_csv("temps.csv")
+df =pd.read_csv("Temps.csv")
 b=np.array(df.loc[:,"medeltemp"])       #Detta är värde y
 a=np.array([[df.loc[0,"month"], 1.0],
             [df.loc[1,"month"], 1.0],
