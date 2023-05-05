@@ -12,6 +12,7 @@ rain = data["precipitation"]
 
 dates = []
 
+#converts time from unix to something readable
 for timestamp in time:
     date = datetime.datetime.fromtimestamp(timestamp)
     dates.append(date)
